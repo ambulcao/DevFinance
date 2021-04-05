@@ -1,25 +1,31 @@
 import './App.css';
+import HeroSection from './VideoSection';
+
 
 function App() {
     return (
         <>
             <html>
+
                 <head>
                     <title>
                         Dev.Financ€
                     </title>
                 </head>
+                
                 <body>
+                    
                     <header>
-                        <h1 id="logo">Dev-Financ€</h1>
+                    <HeroSection/>
+                        <h1 id="logo"></h1>                    
                     </header>
-
+                    
                     <main className="container">
-                        <video autoplay="true" loop>
-                            <source src="Finance.mp4" type="video/mp4" />
-                        </video>
+                        
+                    <section>
                         <section id="balance">
-                            <h2>Balanço</h2>
+                            
+                            <h2>Dev-Financ€ (BALANÇO)</h2>
 
                             <div className="card">
                                 <h3>Entradas</h3>
@@ -31,7 +37,7 @@ function App() {
                                 <p>2.000,00 €</p>
                             </div>
 
-                            <div className="card">
+                            <div className="card total">
                                 <h3>Total</h3>
                                 <p>3.000,00 €</p>
                             </div>
@@ -67,6 +73,7 @@ function App() {
                                 </tbody>
                             </table>
                         </section>
+                    </section>   
                     </main>
                     <footer><p>Dev.Finance €</p></footer>
                 </body>

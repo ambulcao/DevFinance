@@ -1,3 +1,7 @@
+:root {
+    --dark-blue: #363f5f;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,14 +11,6 @@
 body {
     background: #f0f2f5;
     font-family: "Poppins", sans-serif;
-}
-
-body main video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 100%;
 }
 
 .container {
@@ -41,16 +37,18 @@ header {
 }
 
 #logo {
-    color: #fff;
-    font-weight: 500;
+    color: #333;
+    font-weight: 800;
+    text-align: left;
 }
 
 #balance {
-    margin-top: -8rem;
+    margin-top: -4rem;
 }
 
 #balance h2 {
-    color: #363f5f;
+    color: var(--dark-blue);
+    text-align: center;
     margin-top: 0;
     font-weight: bold;
 }
@@ -59,6 +57,46 @@ header {
     background: #dfe8e1;
     opacity: 0.9;
     padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+
+    margin-bottom: 2rem;
+    color: var(--dark-blue);
+}
+
+.card h3 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.card p {
+    font-size: 2rem;
+    line-height: 3rem;
+
+    margin-top: 1rem;
+}
+
+.card.total {
+    background: #49aa26;
+    color: white;
+}
+
+#data-table {
+    width: 100%;
+    border-spacing: 0 0.5rem;
+}
+
+table th {
+    background: white;
+    
+    font-weight: normal;
+    padding: 1rem 2 rem;
+
+    text-align: left;
+    color: #969cb3;
+}
+
+table td {
+    background: white;
 }
 
 footer {
