@@ -56,19 +56,19 @@ function App() {
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Luz</td>
-                                        <td>- 500,00 €</td>
-                                        <td>23/01/2021</td>
+                                        <td className="desciption">Luz</td>
+                                        <td className="expense">- 500,00 €</td>
+                                        <td className="date">23/01/2021</td>
                                     </tr>
                                     <tr>
-                                        <td>Criação de Website</td>
-                                        <td>5000,00 €</td>
-                                        <td>23/01/2021</td>
+                                        <td className="desciption">Criação de Website</td>
+                                        <td className="income">5000,00 €</td>
+                                        <td className="date">23/01/2021</td>
                                     </tr>
                                     <tr>
-                                        <td>Internet</td>
-                                        <td>- 200,00 €</td>
-                                        <td>23/01/2021</td>
+                                        <td className="desciption">Internet</td>
+                                        <td className="expense">- 200,00 €</td>
+                                        <td className="date">23/01/2021</td>
                                     </tr>
                                 </tbody>
                             </table>
