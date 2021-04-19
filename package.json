@@ -8,13 +8,15 @@
     "@testing-library/user-event": "^12.1.10",
     "@types/styled-components": "^5.1.9",
     "core-js": "^2.6.12",
+    "npm": "^7.10.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "react-youtube": "^7.13.1",
     "styled-components": "^5.2.3",
     "video-react": "^0.14.1",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "start": "react-scripts start",
